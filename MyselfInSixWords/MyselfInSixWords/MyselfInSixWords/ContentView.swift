@@ -10,11 +10,35 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            Text("My Hobbies")
+                .font(.largeTitle)
+                .background(Color.red, in: RoundedRectangle(cornerRadius: 10))
+            
+            HStack {
+                Text("Soccer")
+                Text("Baseball")
+                Text("Coding")
+                Text("Cars")
+            }
         }
+        
+        VStack {
+            
+            Text("Coding Languages")
+                .font(.largeTitle)
+                .background(Color.teal, in: RoundedRectangle(cornerRadius: 10))
+            
+            HStack {
+                Text("Swift")
+                Text("JavaScript")
+                Text("Java")
+                Text("Python")
+                Text("CSS")
+                Text("HTML")
+            }
+        }
+        
         .padding()
     }
 }
