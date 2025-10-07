@@ -11,10 +11,11 @@ import SwiftUI
 struct WeatherForecastApp: App {
     var body: some Scene {
         WindowGroup {
-            VStack
-            {
-                Text("Hey")
-            }
+           // VStack
+           // {
+            //    Text("7 DAY WEATHER FORCAST")
+            //        .font(.title)
+         //   }
             ContentView()
             }
         }
