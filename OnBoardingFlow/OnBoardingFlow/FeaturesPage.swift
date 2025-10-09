@@ -17,6 +17,7 @@ struct FeaturesPage: View {
             
             FeatureCard(iconName: "soccerball.inverse", description: "1-on-1 session")
             FeatureCard(iconName: "sportscourt", description: "Game analysis")
+            FeatureCard(iconName: "eye", description: "AI Based Insights")
             Spacer()
         }
         .padding()
