@@ -1,0 +1,21 @@
+//
+//  testdrive.iig
+//  testdrive
+//
+//  Created by Greg Lamar Jr on 10/11/25.
+//
+
+#ifndef testdrive_h
+#define testdrive_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+
+class testdrive: public IOService
+{
+public:
+    virtual kern_return_t
+    Start(IOService * provider) override;
+};
+
+#endif /* testdrive_h */
